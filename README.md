@@ -1,20 +1,18 @@
 # Movie Recommendation System 🎬
 
-A Python-based recommendation system that suggests movies to users based on content similarity.
+# Movie Recommendation System 🎬
 
-## 🚀 Features
-- Content-based filtering using TF-IDF and cosine similarity
-- Built with **Pandas, NumPy, Scikit-learn**
-- Simple GUI with Tkinter / Streamlit (optional)
-- Reads dataset of movies and outputs top-N recommendations
+Content-based recommender using **TF-IDF** and **cosine similarity** over movie metadata (genres, keywords, tagline, cast, director). Includes a simple **Tkinter GUI**.
 
-## 📂 Project Structure
-- `MovieRecommendation.ipynb` → main notebook with logic
-- `gui.py` → GUI implementation
-- `movies.xlsx` → dataset file (sample provided)
+## Demo
+- Run locally: `python gui.py`
 
-## ⚙️ Installation
+## Tech
+- Python, Pandas, NumPy, scikit-learn, Tkinter
+
+## Setup
 ```bash
 git clone https://github.com/SaniaBatta/movie-recommendation-system.git
 cd movie-recommendation-system
 pip install -r requirements.txt
+python gui.py
